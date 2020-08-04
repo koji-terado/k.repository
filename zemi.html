@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTf-8">
+<title>ゼミナール</title>
+    <link rel="stylesheet" href="zemi.css">
+</head>
+<body>
+    <h1>inputのフォーム部品の種類</h1>
+    <form action="mail.php" method="post">
+        
+    <input type="hidden" name="user_id" value="00000">
+        
+        <label for="text_id"><span class="a1">①text</span></label>
+        <input type="text" placeholder="テキスト" name="text" id="text_id">
+        <div class="setumei">
+            <p>通常のテキストボックスです。</p>
+            <p>様々な入力が可能です</p>
+        </div>
+    
+        <label for="number_id"><span class="a2">②number</span></label>
+        <input type="number" name="number" value="0" min="-20" max="20" id="number_id">
+        <div class="setumei">
+            <p>数値入力部品です。</p>
+            <p>-20から20に設定してあります。</p>
+        </div>
+        
+    <label for="tel_id"><span class="a3">③tel</span></label>
+        <input type="tel" mame="tel" placeholder="電話番号" id="tel_id">
+        <div class="setumei">
+            <p>電話番号を入力することのできる</p>
+            <p>入力フィールドです。</p>
+        </div><br>
+    
+        <label for="file_id"><span class="a4">④file</span></label>
+        <input type="file" name="userfile" id="file_id">
+        <div class="setumei">
+            <p>ファイルを選択することが</p>
+            <p>できるコントロール部品です。</p>
+        </div>
+        
+    <label for="email_id"><span class="a5">⑤email</span></label>
+        <input type="email" name="email" placeholder="メールアドレス" id="email_id">
+         <div class="setumei">
+            <p>メールアドレスを編集、</p>
+            <p>入力する事のできる部品です。</p>
+        </div>
+
+        
+    <label for="url_id"><span class="a6">⑥url</span></label>
+        <input type="url" name="url" placeholder="URL" id="url_id">
+         <div class="setumei">
+            <p>url入力フォームです。</p>
+            <p>textとは異なるものです。</p>
+        </div><br>
+        
+        <label for="pass_id"><span class="a7">⑦password</span></label>
+        <input type="password" mame="password" placeholder="password" id="pass_id">
+         <div class="setumei">
+            <p>パスワード入力フォームです。</p>
+            <p>入力した文字は隠されます。</p>
+        </div>
+        
+        <label for="search_id"><span class="a8">⑧search</span></label>
+        <input type="search" name="search" placeholder="検索ワード" id="search_id">
+         <div class="setumei">
+            <p>検索文字列を入力します。</p>
+            <p>※改行は取り除かれます。</p>
+        </div>
+        
+        <label for="range_id"><span class="a9">⑨range</span></label>
+        <input type="range" name="range" id="range_id">
+         <div class="setumei">
+            <p>範囲を選択します。</p>
+            <p>値はスライダで選択します。</p>
+        </div><br>
+    
+        <label for="color_id"><span class="a10">⑩color</span></label>
+        <input type="color" name="color" id="color_id">
+         <div class="setumei">
+            <p>カラーピッカーを設置し、選択します。</p>
+            <p>ブラウザによっては表示できません。</p>
+        </div>
+        
+        <label for="time_id"><span class="a11">⑪time</span></label>
+        <input type="time" name="time" id="time_id">
+         <div class="setumei">
+            <p>何時、何分か、いわゆる時刻を</p>
+            <p>入力するコントロールです。</p>
+        </div>
+    
+        <label for="date_id"><span class="a12">⑫date</span></label>
+        <input type="date" name="date" id="date_id">
+         <div class="setumei">
+            <p>年、月、日を</p>
+            <p>入力するコントロールです。</p>
+        </div><br>
+        
+        <label for="dalocal_id"><span class="a13">⑬datetime-local</span></label>
+        <input type="datetime-local" name="datetime-local" id="dalocal_id">
+         <div class="setumei">
+            <p>時刻を入力します。</p>
+            <p>合わせて、日付も入力します。</p>
+        </div>
+        
+        <label for="week_id"><span class="a14">⑭week</span></label>
+        <input type="week" name="week" id="week_id">
+         <div class="setumei">
+            <p>西暦と合わせて、週単位で</p>
+            <p>入力を行うコントロールです。</p>
+        </div>
+        
+        <label for="month_id"><span class="a15">⑮month</span></label>
+        <input type="month" name="month" id="month_id">
+         <div class="setumei">
+            <p>weekと異なり、西暦に加え、</p>
+            <p>月単位での入力を行います。</p>
+        </div><br>
+        
+    <fieldset>
+        <legend>⑯checkbox</legend>
+       <input type="checkbox" name="checkbox" checked>選択肢１
+       <input type="checkbox" name="checkbox">選択肢２
+       <input type="checkbox" name="checkbox">選択肢３
+    </fieldset>
+         <div class="setumei">
+            <p>チェックボックスを設置します。</p>
+            <p>※複数選択することができます。</p>
+        </div>
+        
+    <fieldset>
+      <legend>⑰radio</legend>
+        <input type="radio" name="radio" checked>選択肢A
+        <input type="radio" name="radio">選択肢B
+        <input type="radio" name="radio">選択肢C  
+    </fieldset>
+         <div class="setumei">
+            <p>ラジオボックスを設置します。</p>
+            <p>checkboxと異なり選択は1箇所です。</p>
+        </div>
+        
+        <label for="submit_id"><span class="a18">⑱submit</span></label>
+        <input type="submit" id="submit_id" formaction="iii.html">
+         <div class="setumei">
+            <p>form間の内容を送信する、</p>
+            <p>送信ボタンを設置します。</p>
+        </div><br>
+        
+        <label for="reset_id"><span class="a19">⑲reset</span></label>
+        <input type="reset" id="reset_id">
+         <div class="setumei">
+            <p>フォームで入力した数値などを</p>
+            <p>リセットする、ボタンを設置します。</p>
+        </div>
+        
+        <label for="button_id"><span class="a20">⑳button</span></label>
+        <input type="button" value="ボタン" id="button_id">
+         <div class="button">
+            <p>既定の動作を持たない、</p>
+            <p>汎用ボタンです。</p>
+        </div>
+        
+        <label for="image_id"><span class="a21">㉑image</span></label>
+        <input type="image" src="zemi.png" alt="画像ボタン" iamge="image_id" formaction="iii.html" width="100" height="70">
+         <div class="image">
+            <p>選択した画像を表示し、submit</p>
+            <p>同様に、入力数値を送信します。</p>
+        </div>
+    </form>
+    <P id="sese"><a href="index.html">学習テーマトップへ</a></P>
+ </body>
+</html>

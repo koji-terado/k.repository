@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(237, 137, 245, 0.1);
+}
+p {font-size: 15px;
+    line-height: 3px;
+}
+.setumei{
+    display: inline-block;
+    background-color: silver;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1px;
+    border: 1px solid black;
+    max-width: 500px;
+}
+.button{
+    display: inline-block;
+    background-color: silver;
+    margin-top: 15px;
+    padding: 1px;
+    border: 1px solid black;
+    max-width: 500px;
+}
+.image{
+    display: inline-block;
+    background-color: silver;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 1px;
+    border: 1px solid black;
+    max-width: 500px;
+}
+h1{ 
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 3px solid red;
+    padding-bottom: 0.1px;
+    width: 750px;
+    margin-left: 25%;
+}
+input[type="image"]{
+   position: relative;
+    top: 30px;
+}
+fieldset{
+    display: inline-block;
+    width: 280px;
+}
+#sese{
+    margin-left: 85%;
+    font-size: 25px;
+    cursor: pointer;
+}
+#sese{
+    margin-left: 85%;
+    font-size: 25px;
+    cursor: pointer;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: palevioletred;
+    background-color: yellow; transition: 1s;
+}
+.a2,.a3{
+    margin-left: 72px
+}
+.a5,.a6{
+    margin-left: 25px;
+}
+.a14,.a15{
+    margin-left: 19px;
+}
+.a11,.a12{
+    margin-left: 149px;
+}
+.a8,.a9{
+    margin-left: 50px;
+}
+.a20,.a21{
+    margin-left: 166px
+}
+.a1,.a4,.a7,.a10,.a13,.a19{
+    margin-left: 20px;
+}
+.a18{
+    margin-left: 20px;
+}

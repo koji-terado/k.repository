@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(237, 137, 245, 0.1);
+}
+h1{
+    font-size: 40px;
+    position: relative;
+    margin-top: 1%;
+    padding-left: 50px;
+    width: 580px;
+    color: red;
+    border-bottom: 3px solid red;
+}
+h2{
+    margin-left: 20px;
+}
+p{
+    margin-left: 70px;
+}
+.head3{
+    display: flex;
+    justify-content: center;
+}
+#sese{
+    margin-left: 85%;
+    font-size: 25px;
+    cursor: pointer;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: palevioletred;
+    background-color: yellow; transition: 1s;
+}
+img{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+h2{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.sp{
+    border-bottom: 2px solid black;
+}
+p{
+    font-size: 19px;
+    line-height: 1.5em;
+}
+.inn{
+    font: 6px;
+    color: blue;
+    margin-left: 50%;
+    border-bottom: 1px solid;
+}
+.kan{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.kan1{
+    color: blue;
+    margin-right: 15px;
+}

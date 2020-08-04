@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(237, 137, 245, 0.1);
+}
+h1{
+    font-size: 40px;
+    position: relative;
+    margin-top: 1%;
+    padding-left: 50px;
+    width: 880px;
+    color: red;
+    border-bottom: 3px solid red;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.spam{
+    border-bottom: 2px solid black;
+}
+.lili{
+     border-bottom: 1px solid deeppink;
+}
+p{
+    
+    font-size: 18px;
+    margin-left: 70px;
+}
+#sese{
+    margin-left: 85%;
+    font-size: 25px;
+    cursor: pointer;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: palevioletred;
+    background-color: yellow; transition: 1s;
+}
+ul,.pnp{
+    margin-left: 70px;
+}
+.ppn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ul{
+    color: deeppink;
+    font-size: 18px;
+}
+p{
+    font-size: 19px;
+    line-height: 1.5em;
+}

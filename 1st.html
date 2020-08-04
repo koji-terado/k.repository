@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTf-8">
+<title>学習内容について</title>
+    <link rel="stylesheet" href="ist.css">
+</head>
+<body>
+    <div class="head"><h1>学習した事（input要素のtype属性について）</h1></div>
+    <h2><span class="spam">input要素とは？</span></h2>
+    <p>input要素とは、HTML内で使用する要素で、様々な部品を作るものです。<br>
+        属性値typeと併せて記述を行い、記述例としては、<br>
+        <img src="kizyutu.png" alt="&lt;input&nbsptype=部品名&gt;" class="ppn"><br>と記述します。部品名で指定した、コントロールの作成を行います。</p>
+    <h2><span class="spam">type属性について</span></h2>
+    <p>input要素のtype属性では、様々な値、属性値があり、その属性値の選択により色々な部品を作る事ができます。<br>type属性の値は自身が学習した中で、２２種類ありました。属性値hidden以外の部品を紹介します。<a href="zemi.html">フォーム部品の種類</a><br>
+    ちなみに属性値hiddenは、表示されないコントロールですが、その値はサーバーに送信されます。<br>リンク先の属性値紹介ページでもhiddenの値を設定してあります。</p>
+    <h2><span class="spam">inputの属性について</span></h2>
+    <p>inputの属性値は、本テーマであるtypeが重要ですが、もちろん他にも属性値が存在します。<br>全てではありませんが、いくつか紹介します。</p>
+       <ul>
+           <li><span class="lili">value属性=フォームの現在の値を指定。その値が初期値となる。</span></li>
+           <li><span class="lili">name属性=入力コントロールの名前を指定。送信時に値と共に送信される。</span></li>
+           <li><span class="lili">alt属性=imgで使用。画像の代替テキストの表示で使用。</span></li>
+           <li><span class="lili">maxlength属性=フィールドに入力できる文字数の制限。</span></li>
+           <li><span class="lili">autocomplete属性=フォームの入力値を埋める為などの、自動補完。支援。</span></li>
+           <li><span class="lili">placeholder属性=フィールドに簡単な入力のヒントをコントロール内に表示。</span></li>
+       </ul>
+    <h2><span class="spam">labelについて</span></h2>
+    <p>type属性で作成した部品と、ユーザーが今から何を入力すればいいのか？いわゆるラベル付けを作成します。<br>作成した部品と、ラベルを関連付けすることによって、どのコントロールのどのラベルなのか結びつける事ができます。<br>ラベルでの関連付けの記述は、部品をラベルタグで挟むか、for属性でid名を指定するかの方法があります。</p>
+    <img src="label1.png" alt="&lt;label&nbspfor=id名&gt;&lt;/label&gt;" class="pnp">
+    <img src="label2.png" alt="&lt;label&gt;部品名&lt;/label&gt;" class="pnp">
+    <p>又、ラベル要素で関連付けする際には下記２点には注意する必要がありますので紹介します。</p>
+       <ul>
+           <li><span class="lili">部品の横に、ただのテキストを置く</span></li>
+           <li><span class="lili">placeholderと間違えて使用する。</span></li>
+       </ul>
+    <p>上記２点は、部品と関連付けができないので気を付けましょう。</p>
+    <h2><span class="spam">labelで関連付けるメリット</span></h2>
+    <p>メリットは、以下の通りです。</p>
+       <ul>
+           <li><span class="lili">ラベルをクリックすると、入力要素にフォーカス。</span></li>
+           <li><span class="lili">radio,checkboxなどの入力が楽。</span></li>
+           <li><span class="lili">入力要素にフォーカスが当たると、ラベルも併せて音声読み上げ。</span></li>
+       </ul>
+    <P id="sese"><a href="index.html">学習テーマトップへ</a></P>
+</body>
+</html>

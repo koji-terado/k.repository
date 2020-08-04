@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgba(237, 137, 245, 0.1);
+}
+#sese{
+    margin-left: 65%;
+    font-size: 25px;
+    cursor: pointer;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: palevioletred;
+    background-color: yellow; transition: 1s;
+}
+div{
+    text-align: center
+}
+img{
+    margin-top: 200px;
+}
